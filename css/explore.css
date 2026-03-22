@@ -11,7 +11,7 @@ body{
     color: #7c2d12;
     margin-bottom: 10px;
 }
-.intro p,.feature-desc,.feature p{
+.intro p,.feature-desc,.feature p,.description{
     max-width: 600px;
     margin: auto;
    color: #7c6a5d;
@@ -162,3 +162,133 @@ body{
  .feature h3{
     color: #9a3412;
  }
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+   
+   
+}
+
+.stat {
+    width: 250px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 20px;
+}
+.stat:hover{
+     transform: translateY(-5px);
+}
+
+.stat h2 {
+    color: #ea580c;
+}
+
+.stat p {
+    
+    color: #7c6a5d;
+}
+
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+
+.tags span {
+    width: 20%;
+    text-align: center;
+    background: #ffedd5;
+    padding: 6px;
+    font-size: 12px;
+    border-radius: 20px;
+    color: #7c2d12;
+}
+
+
+.img {
+    height: 90px;
+    color: #ea580c;
+}
+
+
+
+.steps {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 8px;
+    height: 90px;
+}
+
+.step {
+    width: 14px;
+    border-radius: 4px;
+    background: linear-gradient(to top, #ea580c, #7c2d12);
+}
+.low { height: 30%; }
+.mid { height: 60%; }
+.high { height: 100%; }
+
+
+.cta {
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px 20px;
+    color: #7c2d12;
+}
+.cta h2{
+    color: #ea580c;
+}
+
+.cta button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: none;
+    background: #ea580c;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.cta button:hover {
+    background: #c2410c;
+}
+.search-inner input::placeholder {
+    color: #c2410c;       
+    font-size: 14px;
+    opacity: 0.7;
+    letter-spacing: 0.3px;
+}
+
+.search-inner input:focus::placeholder {
+    color: #fdba74;      
+    opacity: 0.5;
+}
+
+@media screen and (max-width:760px){
+    .search-inner {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .search-inner input{
+        width: 100%;
+    }.search-inner i
+    {
+        left: 20px;
+    }
+    p{
+        text-align: justify;
+    }
+    
+}@media screen and (max-width:1080px){
+    .search-inner i
+    {
+        left: 120px;
+    }
+}
