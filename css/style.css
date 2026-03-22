@@ -74,8 +74,8 @@ body {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0,0,0,0.15); /* very light */
-    border-radius: 20px;
+    background: rgba(0,0,0,0.10); /* very light */
+    border-radius: 30px;
 }
 
 /* Floating Card */
@@ -223,16 +223,12 @@ body {
     margin-top: 50px;
 }
 
-.section-3{
-    margin-top: 50px;
-    margin-bottom: 10px;
-}
-
 .cards-1{
     display: flex;
     gap: 30px;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 .card-1{
