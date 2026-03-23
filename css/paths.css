@@ -1,0 +1,189 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7fbff;
+    color: #1a1a1a;
+}
+
+/* ===== HERO SECTION ===== */
+.hero {
+    text-align: center;
+    padding: 100px 20px 80px;
+    background: linear-gradient(135deg, #e0f2ff, #ffffff);
+}
+
+.category-tag {
+    color: #4A90E2;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.hero-heading {
+    font-size: 42px;
+    margin: 15px 0;
+    font-weight: 700;
+}
+
+.hero-subheading {
+    font-size: 20px;
+    color: #2C3E50;
+    margin-bottom: 15px;
+}
+
+.hero-paragraph {
+    max-width: 650px;
+    margin: auto;
+    color: #34495E;
+    font-size: 16px;
+}
+
+/* ===== SECTION COMMON ===== */
+section {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+/* ===== EDUCATION ===== */
+.education ul {
+    display: inline-block;
+    text-align: left;
+    line-height: 1.8;
+}
+
+/* ===== ROLES CARDS ===== */
+.roles-skills {
+    background-color: #ffffff;
+}
+
+.role-card {
+    display: inline-block;
+    width: 260px;
+    padding: 20px;
+    margin: 15px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    transition: 0.3s;
+    text-align: left;
+}
+
+.role-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.08);
+}
+
+.role-card h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.role-card p {
+    font-size: 14px;
+    color: #34495E;
+}
+
+/* ===== ROADMAP ===== */
+.roadmap-steps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+}
+
+.roadmap-steps li {
+    background: #ffffff;
+    padding: 12px 20px;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.roadmap-steps li:hover {
+    background-color: #4A90E2;
+    color: #ffffff;
+}
+
+/* ===== TOOLS ===== */
+.tools {
+    background-color: #ffffff;
+}
+
+.tool-card {
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.tool-card:hover {
+    transform: translateY(-5px);
+}
+
+/* ===== QUIZ CTA ===== */
+.quiz-cta {
+    background: linear-gradient(135deg, #4A90E2, #6fb1ff);
+    color: #ffffff;
+    border-radius: 20px;
+    margin: 40px;
+    padding: 50px 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 15px;
+    background: #ffffff;
+    color: #4A90E2;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background: #eaf2ff;
+}
+
+/* ===== BACK BUTTON ===== */
+.back {
+    margin-bottom: 40px;
+}
+
+.back-button {
+    color: #4A90E2;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.back-button:hover {
+    text-decoration: underline;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .role-card {
+        width: 90%;
+    }
+
+    .roadmap-steps {
+        flex-direction: column;
+        align-items: center;
+    }
+}

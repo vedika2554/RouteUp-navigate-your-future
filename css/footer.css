@@ -1,0 +1,84 @@
+.footer {
+    background: #020617;
+    padding: 60px 60px 20px;
+    color: #cbd5f5;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer h2, .footer h4 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #94a3b8;
+}
+
+/* Links */
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #94a3b8;
+    margin-bottom: 8px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ffffff;
+}
+
+/* Social */
+.social-icons {
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Bottom */
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    margin-top: 40px;
+    padding-top: 15px;
+    font-size: 13px;
+    color: #64748b;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 900px) {
+
+    .hero-split {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image,
+    .hero-content {
+        width: 100%;
+    }
+
+    .career-card {
+        right: 20px;
+        top: auto;
+        bottom: -20px;
+        transform: none;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+}

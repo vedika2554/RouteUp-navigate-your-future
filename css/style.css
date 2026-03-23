@@ -27,9 +27,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     padding: 18px 50px;
     background-color: #7c2d12;
     position: relative;
+
+    padding: 20px 60px;
+    background: #1E3A8A;
+    backdrop-filter: blur(10px);
+
 }
 
 /* Logo */
@@ -48,12 +54,17 @@ body {
 
 .nav-links a {
     text-decoration: none;
+
     color: #ffffff;
+
+    color: #E5E7EB;
+
     transition: 0.3s;
     font-weight: 500;
 }
 
 .nav-links a:hover {
+
     color: #ea580c;
 }
 
@@ -67,6 +78,9 @@ body {
     font-size: 26px;
     cursor: pointer;
     color: #f97316;
+
+    color: #FFFFFF;
+
 }
 
 /* ================= HERO SPLIT ================= */
@@ -98,8 +112,13 @@ body {
     content: "";
     position: absolute;
     inset: 0;
+
     background: rgba(124, 45, 18, 0.1);
     border-radius: 20px;
+
+    background: rgba(0,0,0,0.10); /* very light */
+    border-radius: 30px;
+
 }
 
 /* Floating Card */
@@ -284,16 +303,12 @@ body {
     font-size: 20px;
 }
 
-.section-3{
-    margin-top: 50px;
-    margin-bottom: 10px;
-}
-
 .cards-1{
     display: flex;
     gap: 30px;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 .card-1{
